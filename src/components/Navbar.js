@@ -18,12 +18,13 @@ const Navbar = () => (
         <Link className="navbar-item" to="/about">
           About
         </Link>
-       
+
+     
       </div>
       <div className="navbar-end">
         <a
           className="navbar-item"
-          href="https://github.com/johnrieth/erhaben"
+          href="https://github.com/erhabenresearch"
           target="_blank"
           rel="noopener noreferrer"
         >

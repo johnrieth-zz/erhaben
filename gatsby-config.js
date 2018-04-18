@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Erhaben Research',
+    siteUrl: 'https://www.erhabenresearch.com/',
+    description: 'Research and Design for the public',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
