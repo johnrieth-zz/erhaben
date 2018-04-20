@@ -1,14 +1,19 @@
 ---
 layout: default
+main:
+  class: usa-grid usa-section usa-content usa-layout-docs
 ---
-<article class="post">
+{% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
+{% if sidenav %}
+<aside class="usa-layout-docs-sidenav sidenav {% if page.sticky_sidenav %}usa-sticky-sidenav{% endif %}">
+  {% include sidenav.html links=sidenav %}
+</aside>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
-  </div>
-
-</article>
+<div class="usa-layout-docs-main_content">
+  {{ content }}
+</div>
+{% else %}
+<div class="usa-layout-docs-main_content">
+  {{ content }}
+</div>
+{% endif %}
