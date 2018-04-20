@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; script-src 'self' style-src 'self'">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ "/assets/lattice.css" | relative_url }}">
+    <title>Erhaben Research | Research + Design</title>
+    
+  </head>
+
+
+  <body>
+
+
+    <main class="container" aria-label="Content">
+      <div class="section">
+        {{ content }}
+      </div>
+    </main>
+
+
+  </body>
+
+</html>
