@@ -5,16 +5,7 @@ layout: default
 {% assign hero = page.hero %}
 {% include components/hero.html %}
 
-{% if page.tagline and page.intro %}
-<section class="usa-grid usa-section">
-  <div class="usa-width-one-third">
-    <h2>{{ page.tagline }}</h2>
-  </div>
-  <div class="usa-width-two-thirds">
-    {{ page.intro | markdownify }}
-  </div>
-</section>
-{% endif %}
+
 
 {% capture _graphics %}
   {% include graphic-list.html graphics=page.graphics %}
@@ -23,7 +14,23 @@ layout: default
 
 <section class="usa-section">
   <div class="usa-grid">
-    {{ content }}
+    </br>
+  </br>
+  
+    
+    <section class="usa-grid usa-section">
+      <div class="usa-width-one-third">
+        <h2> Public Policy Research + Design.</h2>
+      </div>
+      <div class="usa-width-two-thirds">
+        <!--<p>The tagline should inspire confidence and interest, focusing on the value that your overall approach offers to your audience. Use a heading typeface and keep your tagline to just a few words, and don’t confuse or mystify.</p>
+        <p>Use the right side of the grid to explain the tagline a bit more. What are your goals? How do you do your work? Write in the present tense, and stay brief here. People who are interested can find details on internal pages.</p>-->
+      </div>
+    </section>
+
+</br>
+</br>
+</br>
   </div>
 </section>
 

@@ -11,36 +11,5 @@
 # primary:
 #   links: primary
 #
-primary:
-  - text: Research
-    href: /research/
-  - text: Design
-    href: /design/
-  - text: Library
-    href: /library/
- 
 
-
- 
-
-docs:
-  - text: Sidenav Documentation
-    href: /docs/
-  - text: Sidenav Navigation section
-    links:
-      - text: Demo link A
-        href: /two/a/
-      - text: Demo link B
-        href: /two/b/
-      - text: Demo link C
-        href: /two/c/
-  - text: Sidenav Referenced section
-    links: footer
- 
-
-footer:
-  - text: Documentation
-    href: /docs/
-  - text: Demo link
-    href: /demo/
 
