@@ -18,8 +18,8 @@ email: john.rieth@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
  Erhaben Research focuses on public policy research and design
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  johnrieth
+url: "https://www.erhabenresearch.com/" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  erhabenresearch
 
 # Build settings
 markdown: kramdown

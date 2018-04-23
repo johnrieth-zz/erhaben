@@ -4,23 +4,23 @@
 ## 'base' - Defines header site title, active top nav link color, left nav link color, link color in primary and main footer and text in usa-banner
 ## 'visited' - Defines visited link color
 #
-# colors:
-#   primary: 'DodgerBlue'
-#   primary-darker: 'pink'
-#   base: 'orange'
-#   visited: 'red'
+colors:
+  primary: 'DodgerBlue'
+  primary-darker: 'pink'
+  #base: 'orange'
+  visited: 'red'
 #
 # # USA banner colors
-#   usa-banner:
-#     usa-banner-bg: 'LightBlue'
-#     usa-banner-text: 'Black'
+usa-banner:
+  usa-banner-bg: 'LightBlue'
+  usa-banner-text: 'Black'
 #     usa-banner-link: 'Gray'
 #     usa-banner-link-hover: 'Gray'
 #
 # # Header colors
-#   header:
-#     header-bg: '#e6e3d0'
-#     header-title: 'Black'
+header:
+  header-bg: 'DodgerBlue'
+  header-title: 'Black'
 #     header-link: 'DarkSlateGray'
 #     header-link-hover: 'Indigo'
 #
@@ -33,18 +33,18 @@
 #     link-hover-color: 'orange'
 #
 # # Hero colors
-#   hero:
-#     hero-bg: 'white'
+hero:
+  hero-bg: 'DodgerBlue'
 #     hero-header: 'DarkSlateGray'
 #     hero-header-alt: 'DarkSlateGray'
-#     hero-text: 'Gray'
+  hero-text: 'white'
 #     hero-link: 'DodgerBlue'
 #     hero-button-bg: 'DodgerBlue'
 #     hero-button-text: 'white'
 #
 # # Top navigation colors
-#   top-navigation:
-#     top-nav-bg: 'DarkSlateGray'
+top-navigation:
+  top-nav-bg: 'DarkSlateGray'
 #     top-nav-link: 'white'
 #     top-nav-link-hover: 'black'
 #     top-nav-link-hover-bg: '#6eb7b7'
@@ -62,11 +62,11 @@
 #     side-nav-link-current: 'DarkSlateGray'
 #
 # # Footer colors
-#   footer:
-#     primary-footer-bg: 'Gainsboro'
-#     primary-footer-link: 'black'
-#     footer-bg: 'DarkSlateGray'
-#     footer-text: 'white'
+footer:
+  primary-footer-bg: 'Gainsboro'
+  primary-footer-link: 'black'
+  footer-bg: 'DodgerWhite'
+  footer-text: 'white'
 #     footer-link: 'LightBlue'
 #
 #
