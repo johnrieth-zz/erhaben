@@ -1,0 +1,17 @@
+---
+layout: default
+title: Research
+category: research
+---
+{% for post in site.posts %}      
+  {% if post.categories contains 'research' %}
+  <div class="usa-grid">
+	<div class="post">
+		<h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+		<div class="entry">
+			{{ post.content | strip_html | truncatewords: 100 }}
+		</div>
+    </div>
+    </div>
+  {% endif %}
+{% endfor %}

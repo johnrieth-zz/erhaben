@@ -2,7 +2,7 @@
 
 # Configuration for type of footer.
 # Footer types can be only be medium at the moment
-type: medium
+#type: medium
 
 # Configuration for "Return to top" link.
 # Customize with 'text' and 'href' properties.
@@ -23,10 +23,10 @@ last_updated: false
 
 # Configuration for which links show at the top of the footer.
 # this is a key into _data/navigation.yml
-links: footer
+#links: footer
 
 # Configuration for footer heading. (optional)
-heading: Erhaben Research
+#heading: Erhaben Research
 
 # Configuration for agency logo(s) (shown side by side).
 # If the logo is external add external: true
@@ -36,10 +36,10 @@ heading: Erhaben Research
   #  type: image/jpg
 
 # Configuration for footer contact links
-contact:
+#contact:
 # Configuration for social media links
 # Comment out links you don't want to use (RSS is an example)
-  social_links:
+  #social_links:
   #  - text: Facebook
   #    href: https://facebook.com
   #    external: true
@@ -56,10 +56,10 @@ contact:
   #   href: https://usa.gov/
   #   external: true
   #   type: rss
-  heading: Contact
+  #heading: Contact
 # Configuration for contact links for email, phone, etc...
-  contact_links:
+  #contact_links:
   #  - text: (800) CALL-GOVT
   #    href: tel:1-800-555-5555
-    - text: hello@erhabenresearch.com
-      href: mailto:hello@erhabenresearch.com
+  #  - text: hello@erhabenresearch.com
+  #    href: mailto:hello@erhabenresearch.com

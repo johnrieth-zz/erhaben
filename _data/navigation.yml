@@ -8,8 +8,14 @@
 # can use that as your header's primary navigation by setting
 # `primary.links` to "primary":
 #
-# primary:
+#primary:
 #   links: primary
 #
+
+primary:
+  - text: Research
+    href: /research/
+  - text: Design
+    href: /design/
 
 
